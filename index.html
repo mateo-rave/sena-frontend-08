@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panel de Perfiles</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <main class="contenedor">
+
+        <aside class="panel">
+
+            <div class="titulo">
+                <h1> Panel de Perfiles</h1>
+                <p>Genera tarjetas dinámicas utilizando JavaScript.</p>
+            </div>
+
+            <form id="formPerfil">
+
+                <div class="campo">
+                    <label for="nombre">Nombre completo</label>
+                    <input type="text" id="nombre" placeholder="Ej: Juan Pérez" required>
+                </div>
+
+                <div class="campo">
+                    <label for="cargo">Cargo</label>
+                    <input type="text" id="cargo" placeholder="Ej: Desarrollador Front-End" required>
+                </div>
+
+                <div class="campo">
+                    <label for="departamento">Departamento</label>
+                    <input type="text" id="departamento" placeholder="Ej: Tecnología" required>
+                </div>
+
+                <div class="campo">
+                    <label for="foto">URL de la fotografía</label>
+                    <input type="url" id="foto" placeholder="https://..." required>
+                </div>
+
+                <button type="submit" class="btnCrear">
+                    Generar Tarjeta
+                </button>
+
+            </form>
+
+        </aside>
+
+        <section class="contenido">
+
+            <div class="barraSuperior">
+
+                <div>
+                    <h2>Perfiles creados</h2>
+                    <small>Haz clic sobre una tarjeta para destacarla.</small>
+                </div>
+
+                <div class="contadorBox">
+                    <span id="contador">0</span>
+                </div>
+
+            </div>
+
+            <div id="contenedorTarjetas" class="tarjetas"></div>
+
+        </section>
+
+    </main>
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>

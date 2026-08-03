@@ -1,0 +1,223 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+
+    background:linear-gradient(135deg,#0f172a,#111827,#020617);
+    min-height:100vh;
+    padding:40px;
+    color:white;
+
+}
+
+.contenedor{
+
+    display:grid;
+    grid-template-columns:350px 1fr;
+    gap:30px;
+
+}
+
+.panel{
+
+    background:#1e293b;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 10px 30px rgba(0,0,0,.4);
+
+}
+
+.titulo{
+
+    margin-bottom:30px;
+
+}
+
+.titulo h1{
+
+    margin-bottom:10px;
+
+}
+
+.titulo p{
+
+    color:#cbd5e1;
+
+}
+
+.campo{
+
+    display:flex;
+    flex-direction:column;
+    margin-bottom:18px;
+
+}
+
+.campo label{
+
+    margin-bottom:8px;
+    font-weight:bold;
+
+}
+
+.campo input{
+
+    padding:12px;
+    border:none;
+    outline:none;
+    border-radius:10px;
+    background:#334155;
+    color:white;
+    transition:.3s;
+
+}
+
+.campo input:focus{
+
+    background:#475569;
+
+}
+
+.btnCrear{
+
+    width:100%;
+    padding:14px;
+    border:none;
+    border-radius:10px;
+    background:#2563eb;
+    color:white;
+    cursor:pointer;
+    font-size:16px;
+    transition:.3s;
+
+}
+
+.btnCrear:hover{
+
+    background:#1d4ed8;
+    transform:translateY(-2px);
+
+}
+
+.contenido{
+
+    background:#1e293b;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 10px 30px rgba(0,0,0,.4);
+
+}
+
+.barraSuperior{
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:30px;
+
+}
+
+.contadorBox{
+
+    width:60px;
+    height:60px;
+    border-radius:50%;
+    background:#2563eb;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:22px;
+    font-weight:bold;
+
+}
+
+.tarjetas{
+
+    display:grid;
+    grid-template-columns:repeat(auto-fill,minmax(270px,1fr));
+    gap:25px;
+
+}
+
+.tarjeta{
+
+    background:#334155;
+    border-radius:15px;
+    padding:20px;
+    text-align:center;
+    transition:.3s;
+    cursor:pointer;
+    border:2px solid transparent;
+
+}
+
+.tarjeta:hover{
+
+    transform:translateY(-8px);
+
+}
+
+.tarjeta img{
+
+    width:120px;
+    height:120px;
+    border-radius:50%;
+    object-fit:cover;
+    border:4px solid #3b82f6;
+    margin-bottom:15px;
+
+}
+
+.tarjeta h2{
+
+    margin-bottom:10px;
+
+}
+
+.tarjeta p{
+
+    color:#cbd5e1;
+    margin-bottom:8px;
+
+}
+
+.btnEliminar{
+
+    margin-top:15px;
+    width:100%;
+    padding:10px;
+    border:none;
+    border-radius:8px;
+    background:#dc2626;
+    color:white;
+    cursor:pointer;
+    transition:.3s;
+
+}
+
+.btnEliminar:hover{
+
+    background:#991b1b;
+
+}
+
+.destacada{
+
+    border:2px solid gold;
+    box-shadow:0 0 20px gold;
+
+}
+
+@media(max-width:900px){
+
+    .contenedor{
+
+        grid-template-columns:1fr;
+
+    }
+
+}
