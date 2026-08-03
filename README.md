@@ -5,7 +5,7 @@
 **Aprendiz:** Mateo Rave  
 **Programa:** ADSO (Análisis y Desarrollo de Software)  
 **Ficha:** 3267541  
-**Instructor:** Alex  
+**Instructor:** Alex Patiño
 **Sesión:** 08 - Frontend  
 
 ## Descripción
