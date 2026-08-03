@@ -1,6 +1,7 @@
 # Sesión 08 - Frontend
 
-## Información del proyecto
+## Información de la sesion
+
 
 **Aprendiz:** Mateo Rave  
 **Programa:** ADSO (Análisis y Desarrollo de Software)  
