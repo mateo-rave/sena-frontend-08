@@ -18,4 +18,3 @@ Este repositorio contiene el desarrollo de la sesión 08 del componente de Front
 - CSS3
 - JavaScript
 
-## Estructura del proyecto
